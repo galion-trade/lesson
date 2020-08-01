@@ -10,4 +10,7 @@ let personalMovieDB = {
     privat: false
 };
 
+personalMovieDB["movies"][prompt("Один из последних просмотренных фильмов?","")] = +prompt("На сколько оцените его?","");
+personalMovieDB["movies"][prompt("Один из последних просмотренных фильмов?","")] = +prompt("На сколько оцените его?","");
+
 
